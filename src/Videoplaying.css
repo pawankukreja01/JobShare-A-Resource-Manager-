@@ -1,0 +1,466 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Poiret+One&family=Zen+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Fruktur&family=Poiret+One&family=Zen+Dots&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.maincontainer {
+  background-image: linear-gradient(to left, rgb(26 26 26), #1a0000);
+}
+.videoback {
+  border: 8px solid black;
+  background-image: url("./back.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-inline: 4%;
+  box-shadow: 5px 4px 10px black;
+}
+.container_of_video {
+  margin-inline: 10%;
+  padding-block: 3%;
+  align-content: center;
+}
+iframe.mainvidd {
+  width: 100%;
+  height: 500px;
+  border: 6px ridge rgb(105, 105, 105);
+  box-shadow: 9px 8px 10px black;
+}
+.playlist {
+  width: 50px;
+}
+.titleandrate {
+  display: block;
+  margin-inline: 5%;
+  border-bottom: 8px solid brown;
+  box-shadow: 0px 6px 4px;
+  border-bottom-style: ridge;
+  border-inline: 5px solid black;
+  background: linear-gradient(0deg, rgb(38 13 13) 5%, rgb(18 18 18 / 32%) 95%);
+  margin-bottom: 2%;
+}
+.watchmore {
+  padding-top: 2%;
+}
+.title {
+  word-break: break-word;
+  font-family: "Poiret One", cursive;
+  font-family: "Zen Dots", cursive;
+  color: #f8f6f6;
+  text-align: center;
+  margin-top: 1%;
+  text-shadow: 5px 9px 2px black;
+}
+.morevids > * {
+  flex-basis: 180%;
+}
+.morevids {
+  display: flex;
+}
+.downpage {
+  justify-content: center;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  font-family: "Zen Dots", cursive;
+  color: #b3b3b3;
+  text-shadow: 4px 5px 6px black;
+  background-image: linear-gradient(#000000, rgb(40 35 35));
+  box-shadow: 5px 4px 10px black;
+  margin-inline: 4%;
+  margin-top: 2%;
+}
+.thumbnail {
+  border-radius: 0px;
+  margin-block: 6%;
+  width: 95%;
+  border: solid 4px black;
+  box-shadow: 4px 5px 4px black;
+  margin-right: 0.5%;
+  animation-name: impp;
+  animation-duration: 5s;
+  opacity: 0.8;
+}
+.backk,
+.backk1 {
+  box-shadow: 6px 9px 7px black;
+  height: 100px;
+  width: 85px;
+  border: solid 4px rgb(3, 3, 3);
+  border-radius: 84px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 202% 124%;
+}
+.backk {
+  background-image: url("./next2.png");
+}
+.backk1 {
+  background-image: url("./next1.png");
+}
+.backk:hover,
+.backk1:hover {
+  height: 110px;
+  width: 100px;
+  cursor: pointer;
+  margin-top: -5px;
+}
+.imp1,
+.imp2 {
+  margin-top: 50px;
+}
+.imp1 {
+  margin-right: -5%;
+}
+.imp2 {
+  margin-left: -5%;
+}
+.thumbnail:hover {
+  opacity: 1;
+  border-color: rgb(31, 32, 32);
+}
+.the,
+.the1 {
+  text-shadow: 6px 7px 3px black;
+  padding: 1%;
+  /* font-family: "Orbitron"; */
+  font-family: "Zen Dots", cursive;
+  color: #f7f3f3;
+  box-shadow: 5px 3px 5px black;
+  border-radius: 15px;
+  font-size: 28px;
+  margin-left: 32%;
+  background: bottom;
+  border: 6px solid #000000;
+  margin-bottom: 1%;
+}
+.the:hover,
+.the1:hover {
+  font-size: 31px;
+  cursor: pointer;
+  padding-block: 0.5%;
+  border-color: rgb(240, 245, 243);
+}
+.the1 {
+  margin-left: 1%;
+}
+.mainnavbar {
+  background-color: #000000;
+  margin-bottom: 4%;
+  box-shadow: 6px 9px 18px #950606;
+  display: flex;
+}
+.profile {
+  background-color: black;
+  border: none;
+}
+.profilepic:hover {
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  margin-top: 20%;
+  opacity: 1;
+}
+.profilediv {
+  padding-left: 38%;
+}
+.mainnavbar > * {
+  flex-basis: 50%;
+}
+.profile:hover > .subdiv {
+  display: block;
+  position: absolute;
+  cursor: pointer;
+  color: #f7f3f3;
+  padding-top: 20px;
+}
+.profilepic {
+  object-fit: cover;
+  border-radius: 50px;
+  width: 50px;
+  border: 3px solid white;
+  /* margin-block: 5px; */
+  margin-top: 30%;
+}
+.webtitle {
+  margin-block: 1%;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 50px;
+  padding-left: 2%;
+  font-family: "Zen Dots", cursive;
+  cursor: auto;
+}
+
+.titlee:hover {
+  cursor: pointer;
+  color: #b3b3b3;
+}
+.subdiv {
+  line-height: 50px;
+  background-color: black;
+  padding: 10.5% 5.5%;
+  margin-left: -8%;
+  font-size: 22px;
+  border-radius: 20px;
+}
+.subdiv ul li {
+  list-style-type: none;
+  border-bottom: 2px white solid;
+}
+.subdiv ul li:hover {
+  display: block;
+  color: #b3b3b3;
+  border-color: #b3b3b3;
+}
+.subdiv {
+  display: none;
+}
+
+.subdiv2,
+.subdiv3 {
+  text-align: -webkit-center;
+  position: absolute;
+  transform: translate(38vw, 73vh);
+  background-image: linear-gradient(#000000, rgb(40 35 35));
+  color: #b3b3b3;
+  font-family: "Anton", sans-serif;
+  font-family: "Zen Dots", cursive;
+  padding: 2% 2%;
+  box-shadow: 8px 9px 8px black;
+  border-radius: 5%;
+}
+ 
+.subdiv3{
+  padding-inline: 5%;
+}
+.inputdiv,
+.namediv {
+  color: white;
+}
+.playlistinput {
+  box-shadow: 4px 7px 3px black;
+  border: solid 4px white;
+  border-radius: 20px;
+  background: unset;
+  padding: 3% 2%;
+  width: 100%;
+  color: white;
+  font-family: inherit;
+}
+.heading1 {
+  text-align: center;
+  border-bottom: solid;
+  text-shadow: 3px 4px 5px black;
+}
+.subdiv3 {
+  height: 20rem;
+}
+.divv {
+  margin-block: 14%;
+  display: block;
+}
+.hmhm3
+{padding-bottom: 30%;}
+.printplaylists {
+  display: block;
+  background: unset;
+  border: none;
+  color: white;
+  font-family: inherit;
+  border-block: solid 2px;
+  line-height: 32px;
+  border-color: white;
+  width: 100%;
+  word-break: break-word;
+  cursor: pointer;
+  text-align: left;
+}
+.printplaylists:hover {
+  border-color: #393558;
+  color: #393558;
+}
+.playlists {
+  position: relative;
+  overflow-y: scroll;
+  max-height: 20vh;
+  max-width: 17.5rem;
+  border: ridge #f7f3f3 2.5px;
+  margin-block: 2%;
+  padding: 1% 0%;
+  border-radius: 3%;
+}
+
+.addplaylist,
+.cancelbutt {
+  box-shadow: 5px 5px 6px black;
+  padding: 1% 5%;
+  border-radius: 20px;
+  font-family: inherit;
+  background-color: unset;
+  border: black;
+  color: #b3b3b3;
+  font-size: 25px;
+  margin-top: 3%;
+  text-shadow: 4px 4px 2px black;
+  border: solid white 3px;
+}
+.addplaylist:hover,
+.cancelbutt:hover {
+  border-color: white;
+  color: white;
+  cursor: pointer;
+}
+@keyframes impp {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media (max-width: 1000px) {
+  .subdiv2,
+  .subdiv3 {
+    transform: translate(35vw, 73vh);
+    max-width: 60%;
+  }
+  .addplaylist {
+    max-width: 14.5rem;
+  }
+  .hmhm3
+{padding-bottom: 40%;}
+}
+@media (max-width: 800px) {
+  .buttonsimp {
+    padding-inline: 30%;
+  }
+  .mainnavbar {
+    display: grid;
+  }
+  .mainnavbar > * {
+    flex-basis: 0px;
+  }
+  .webtitle {
+    text-align: center;
+  }
+  .profilediv {
+    text-align: center;
+    padding: 0;
+  }
+  .subdiv2 {
+    transform: translate(18vw, 73vh);
+    font-size: smaller;
+    max-width: 70%;
+  }
+  .subdiv3 {
+    transform: translate(18vw, 73vh);
+    max-width: 70%;
+  }
+  .hmhm3
+{padding-bottom: 50%;}
+.cancelbutt1{
+  margin-bottom: 16%;
+}
+}
+@media (max-width: 500px) {
+  .subdiv2,
+  .subdiv3 {
+    transform: translate(18vw, 73vh);
+    font-size: xx-small;
+    max-width: 60%;
+  }
+  .subdiv3 {
+    height: 44%;
+    padding-inline: 15%;
+  }
+  .addd {
+    text-align: center;
+  }
+  .addplaylist,
+  .cancelbutt {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .buttonsimp {
+    padding-inline: 10%;
+  }
+  .the,
+  .the1,
+  .title,
+  .watchmore {
+    font-size: small;
+  }
+  .webtitle {
+    font-size: large;
+  }
+  .backk,
+  .backk1 {
+    height: 50px;
+    width: 40px;
+  }
+  .backk:hover,
+  .backk1:hover {
+    height: 70px;
+    width: 60px;
+  }
+  .thumbnail {
+    height: 70px;
+  }
+  .subdiv2,
+  .subdiv3 {
+    transform: translate(20vw, 73vh);
+    font-size: 12px;
+    max-width: 60%;
+  }
+  .addd {
+    text-align: center;
+  }
+  .addplaylist,
+  .cancelbutt {
+    font-size: 16px;
+  }
+}
+@media (max-width: 210px) {
+  .buttonsimp {
+    padding-inline: 0%;
+  }
+  .the,
+  .the1,
+  .title,
+  .watchmore {
+    font-size: x-small;
+  }
+  .backk,
+  .backk1 {
+    height: 30px;
+    width: 20px;
+  }
+  .backk:hover,
+  .backk1:hover {
+    height: 50px;
+    width: 40px;
+  }
+  .thumbnail {
+    height: 50px;
+  }
+  iframe.mainvidd {
+    height: 310px;
+  }
+  .subdiv2,
+  .subdiv3 {
+    transform: translate(20vw, 43vh);
+    font-size: 6px;
+    height: 36%;
+  }
+  .playlistinput {
+    padding: 0% 0%;
+    font-size: 9px;
+  }
+  .addplaylist {
+    font-size: 12px;
+  }
+}

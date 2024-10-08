@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Poiret+One&family=Zen+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Fruktur&family=Poiret+One&family=Zen+Dots&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+.maincontainer2 {
+  background: rgb(37, 36, 36);
+  background: linear-gradient(
+    143deg,
+    rgba(37, 36, 36, 1) 27%,
+    rgba(155, 59, 59, 1) 54%
+  );
+  background-image: linear-gradient(to left, rgb(26 26 26), #4b0c0c);
+  font-family: "Anton", sans-serif;
+  font-family: "Zen Dots", cursive;
+  height: auto;
+}
+.mainnavbar2 {
+  background-color: #000000;
+  display: flex;
+  position: sticky;
+  z-index: 2;
+  border-bottom: solid 3px white;
+  box-shadow: 10px 7px 11px 3px black;
+}
+.profilee2 {
+  background-color: black;
+  border: none;
+}
+.logoutb
+{
+  text-decoration: none;
+  color: white;
+}
+.profilepicc2:hover {
+  cursor: pointer;
+  width: 55px;
+  height: 55px;
+  margin-top: 20%;
+  margin-left: 10%;
+  opacity: 1;
+}
+.searchinput2 {
+  background: unset;
+  font-family: inherit;
+  border-radius: 16px;
+  background: #cdcdcd;
+  font-size: 28px;
+  border: solid 5px #a90000;
+}
+.searchbardiv2 {
+  background-color: black;
+  align-self: center;
+}
+.searchbutt2:hover > .com {
+  color: green;
+}
+.searchbutt2:hover  {
+  border-color: green;
+}
+.searchbutt2 {
+  padding: 0.5%;
+  padding-inline: 3%;
+  cursor: pointer;
+  margin-left: 2%;
+  border-radius: 30%;
+  color: white;
+  font-family: inherit;
+  font-size: 28px;
+  background: unset;
+  border: solid 3px white;
+}
+.mainnavbar2 > * {
+  flex: auto;
+}
+.profilee2:hover > .subdivv2 {
+  display: block;
+  position: absolute;
+  cursor: pointer;
+  color: #f7f3f3;
+  padding-top: 20px;
+}
+.morevids2 > * {
+  flex-basis: 180%;
+}
+.morevids2 {
+  display: flex;
+}
+.profilepicc2 {
+  object-fit: cover;
+  border-radius: 50px;
+  width: 50px;
+  border: 3px solid white;
+  margin-top: 30%;
+}
+.profiledivv2 {
+  text-align: center;
+  padding-right: 0%;
+}
+.webtitlee2 {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 50px;
+  cursor: auto;
+}
+
+.titleee2:hover {
+  cursor: pointer;
+  color: #b3b3b3;
+}
+.subdivv2 {
+  line-height: 50px;
+  background-color: black;
+  padding: 10.5% 5.5%;
+  margin-left: -8%;
+  font-size: 22px;
+  border-radius: 20px;
+}
+.subdivv2 ul li {
+  list-style-type: none;
+  border-bottom: 2px white solid;
+}
+.subdivv2 ul li:hover {
+  display: block;
+  color: #b3b3b3;
+  border-color: #b3b3b3;
+}
+.subdivv2 {
+  display: none;
+}
+
+.innerdiv2 {
+  display: flex;
+}
+.innerdiv2 > * {
+  flex: auto;
+}
+.innersubdiv1 {
+  display: grid;
+  position: fixed;
+  padding: 2%;
+  margin-top: -6%;
+  height: 100vh;
+  align-content: space-evenly;
+  justify-content: center;
+  justify-items: center;
+  max-width: 220px;
+  background-image: linear-gradient(to right, rgb(40 35 35), #000000);
+  box-shadow: 5px 7px 5px black;
+}
+.options2 {
+  color: white;
+  margin-top: -46%;
+}
+.yourplaylist2,
+.likedplaylist2 {
+  background: unset;
+  font-family: inherit;
+  color: white;
+  border: ridge 6px white;
+  padding: 0% 0%;
+  margin-top: -88%;
+  margin-bottom: 54%;
+  box-shadow: 7px 7px 6px black;
+}
+.yourplaylist2:hover,
+.likedplaylist2:hover {
+  margin-left: -5%;
+  margin-right: -5%;
+  cursor: pointer;
+   font-size: 16px;  
+}
+
+.homepageheading {
+  margin-block: 6.5%;
+  margin-left: 19%;
+  font-size: 60px;
+  text-shadow: 4px 5px 6px black;
+  color: #f7f0f0;
+  text-align: center;
+}
+.watchmore2 {
+  padding-top: 2%;
+  font-size: 40px;
+}
+.downpage2 {
+  justify-content: center;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  font-family: "Zen Dots", cursive;
+  color: #fdf7f7;
+  text-shadow: 4px 5px 6px black;
+  background-image: linear-gradient(#000000, rgb(40 35 35));
+  box-shadow: 5px 4px 10px black;
+  margin-inline: 2%;
+  margin-left: 19%;
+  margin-block: 3%;
+}
+.thumbnail2 {
+  border-radius: 0px;
+  margin-block: 6%;
+  width: 95%;
+  border: solid 4px black;
+  box-shadow: 4px 5px 4px black;
+  margin-right: 0.5%;
+  animation-name: impp;
+  animation-duration: 5s;
+  opacity: 0.8;
+}
+.imp11,
+.imp22 {
+  margin-top: 50px;
+}
+.imp11 {
+  margin-right: -5%;
+}
+.imp22 {
+  margin-left: -5%;
+}
+.thumbnail2:hover {
+  opacity: 1;
+  border-color: rgb(31, 32, 32);
+}
+
+@keyframes impp {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 400px) {
+  .watchmore2 {
+    font-size: small;
+  }
+
+  .thumbnail2 {
+    height: 70px;
+  }
+}
+@media (max-width: 210px) {
+  .watchmore {
+    font-size: x-small;
+  }
+
+  .thumbnail2 {
+    height: 50px;
+  }
+}
+
+@media (max-width: 1180px) {
+  .mainnavbar2 {
+    display: grid;
+  }
+  .webtitlee2 {
+    text-align: center;
+  }
+  .searchbardiv2 {
+    text-align: center;
+  }
+  .innersubdiv1 {
+    padding: 4.5% 2.5%;
+    max-width: 220px;
+  }
+
+  .likedplaylist2,
+  .yourplaylist2 {
+    font-size: 15px;
+  }
+  .likedplaylist2:hover,
+  .yourplaylist2:hover {
+    font-size: 17px;
+  }
+  .options2 {
+    font-size: 20px;
+  }
+  .innersubdiv1 {
+    max-width: 180px;
+  }
+}
+@media (max-width: 680px) {
+  .webtitlee2,
+  .searchinput2,
+  .searchbutt2 {
+    font-size: 24px;
+  }
+  .profiledivv2 {
+    text-align: center;
+    padding: 0;
+  }
+  .innersubdiv1 {
+    padding: 2.5% 1%;
+    max-width: 220px;
+  }
+  .likedplaylist2,
+  .yourplaylist2 {
+    font-size: 12px;
+  }
+  .likedplaylist2:hover,
+  .yourplaylist2:hover {
+    font-size: 14px;
+  }
+  .options2 {
+    font-size: 18px;
+  }
+  .innersubdiv1 {
+    max-width: 160px;
+  }
+}
+@media (max-width: 570px) {
+  .webtitlee2,
+  .searchinput2,
+  .searchbutt2 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 520px) {
+  .innersubdiv1 {
+    max-width: 120px;
+  }
+  .likedplaylist2,
+  .yourplaylist2 {
+    font-size: 10px;
+  }
+  .likedplaylist2:hover,
+  .yourplaylist2:hover {
+    font-size: 12px;
+  }
+  .options2 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 420px) {
+  .searchinput2,
+  .searchbutt2 {
+    font-size: 12px;
+  }
+}
+@media (max-width: 310px) {
+  .searchinput2,
+  .searchbutt2 {
+    font-size: 8px;
+  }
+  .innersubdiv1 {
+    max-width: 80px;
+  }
+  .likedplaylist2:hover,
+  .yourplaylist2:hover {
+    font-size: 8px;
+  }
+  .likedplaylist2,
+  .yourplaylist2 {
+    font-size: 7px;
+    border: 1px solid;
+  }
+  .options2 {
+    font-size: 10px;
+  }
+}

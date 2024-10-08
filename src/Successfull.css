@@ -1,0 +1,51 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.box {
+  font-style: oblique;
+  color: rgba(88, 88, 104, 0.938);
+  text-shadow: 4px 5px 6px black;
+  font-size: 40px;
+  animation-name: example1;
+  animation-duration: 2s;
+  transition: 0.5s;
+  margin-top: 10%;
+  line-height: 150px;
+  margin-inline: 10%;
+  text-align: center;
+  justify-content: center;
+}
+.goback {
+  text-decoration: none;
+  color: black;
+  font-family: "Orbitron";
+  border-radius: 800px;
+  padding: 3% 3%;
+  border: solid 8px green;
+  opacity: 1;
+  box-shadow: 5px 5px 5px black;
+  text-decoration: wavy;
+
+  opacity: 0.8;
+}
+
+.goback:hover {
+  font-size: larger;
+  opacity: 1;
+}
+@media (max-width: 720px) {
+  .box {
+    margin-inline: 0%;
+  }
+}
+@media (max-width: 630px) {
+  .box {
+    font-size: large;
+  }
+}
+@media (max-width: 450px) {
+  .box {
+    font-size: x-small;
+  }
+}

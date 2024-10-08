@@ -1,0 +1,146 @@
+.description_of_contact {
+  opacity: 1;
+  padding: 20px 20px;
+  width: 100%;
+  line-height: 70px;
+  text-align: center;
+  margin-inline: auto;
+  width: min(100%, 94.7rem);
+}
+.developersheading {
+  font-size: 40px;
+  font-style: oblique;
+  text-shadow: 9px 4px 8px rgb(19 16 16 / 88%);
+  color: rgba(88, 88, 104, 0.938);
+  text-overflow: ellipsis;
+  padding-bottom: 40px;
+  padding-top: 30px;
+  animation-name: example1;
+  animation-duration: 4s;
+}
+
+.middlestuff_of_contact {
+  font-size: 50px;
+  line-height: 100px;
+  text-align: left;
+}
+
+.middlestuff_of_contact > * {
+  flex-basis: 100%;
+}
+.abdullah,
+.vinesh,
+.usama {
+  display: flex;
+  padding-top: 20px;
+  margin-left: 40px;
+}
+.emails {
+  text-shadow: 9px 4px 8px rgb(19 16 16 / 88%);
+  color: white;
+  margin-left: 150px;
+  margin-top: 40px;
+}
+img {
+  border-radius: 2000px;
+}
+.usa,
+.abd,
+.vin {
+  width: 200px;
+  height: 200px;
+  box-shadow: 11px 8px 3px black;
+  border: 8px solid gray;
+}
+
+@media (max-width: 1500px) {
+  .description_of_contact {
+    font-size: 60%;
+  }
+  .abd,
+  .vin,
+  .usa {
+    width: 200px;
+    height: 200px;
+  }
+  .emails {
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 70px;
+  }
+}
+@media (max-width: 770px) {
+  .description_of_contact {
+    font-size: 40%;
+  }
+  .developersheading {
+    font-size: 30px;
+  }
+  .emails {
+    font-size: 20px;
+    margin-left: 40px;
+  }
+  .abd,
+  .vin,
+  .usa {
+    width: 103px;
+    height: 99px;
+  }
+}
+@media (max-width: 769px) {
+  .description_of_contact {
+    font-size: 30%;
+  }
+  .developersheading {
+    font-size: 20px;
+  }
+  .emails {
+    font-size: 30px;
+    margin-left: 28px;
+    margin-top: 1px;
+  }
+  .abd,
+  .vin,
+  .usa {
+    width: 151px;
+    height: 149px;
+    margin-left: -10px;
+  }
+}
+@media (max-width: 560px) {
+  .description_of_contact {
+    font-size: 7px;
+  }
+  .developersheading {
+    font-size: small;
+  }
+  .emails {
+    font-size: 16px;
+    margin-top: 1px;
+  }
+  .abd,
+  .vin,
+  .usa {
+    width: 170px;
+    margin-left: -10px;
+  }
+}
+@media (max-width: 380px) {
+  .description_of_contact {
+    font-size: 7px;
+  }
+  .developersheading {
+    font-size: small;
+  }
+  .emails {
+    font-size: 13px;
+    margin-top: 1px;
+  }
+  .abd,
+  .vin,
+  .usa {
+    width: 90px;
+    height: auto;
+    margin-left: -10px;
+  }
+}

@@ -1,0 +1,634 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Poiret+One&family=Zen+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Fruktur&family=Poiret+One&family=Zen+Dots&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.maincontainer1 {
+  background: rgb(37, 36, 36);
+  background: linear-gradient(
+    143deg,
+    rgba(37, 36, 36, 1) 27%,
+    rgba(155, 59, 59, 1) 54%
+  );
+  font-family: "Anton", sans-serif;
+  font-family: "Zen Dots", cursive;
+  height: auto;
+}
+.mainnavbarr1 {
+  background-color: #000000;
+  display: flex;
+  position: sticky;
+  z-index: 2;
+}
+.profilee1 {
+  background-color: black;
+  border: none;
+}
+.profilepicc1:hover {
+  cursor: pointer;
+  width: 55px;
+  height: 55px;
+  margin-top: 20%;
+  margin-left: 10%;
+  opacity: 1;
+}
+.searchinput {
+  background: unset;
+  font-family: inherit;
+  border-radius: 16px;
+  background: #cdcdcd;
+  font-size: 28px;
+  border: solid 5px #a90000;
+}
+.searchbardiv1 {
+  background-color: black;
+  align-self: center;
+}
+.searchbutt:hover {
+  color: green;
+  border-color: green;
+}
+.searchbutt {
+  padding: 0.5%;
+  padding-inline: 3%;
+  cursor: pointer;
+  margin-left: 2%;
+  border-radius: 30%;
+  color: white;
+  font-family: inherit;
+  font-size: 28px;
+  background: unset;
+  border: solid 3px white;
+}
+.mainnavbarr1 > * {
+  flex: auto;
+}
+.profilee1:hover > .subdivv1 {
+  display: block;
+  position: absolute;
+  cursor: pointer;
+  color: #f7f3f3;
+  padding-top: 20px;
+}
+.profilepicc1 {
+  object-fit: cover;
+  border-radius: 50px;
+  width: 50px;
+  border: 3px solid white;
+  margin-top: 30%;
+}
+.profiledivv1 {
+  text-align: center;
+  padding-right: 0%;
+}
+.webtitlee1 {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 50px;
+  cursor: auto;
+}
+
+.titleee1:hover {
+  cursor: pointer;
+  color: #b3b3b3;
+}
+.subdivv1 {
+  line-height: 50px;
+  background-color: black;
+  padding: 10.5% 5.5%;
+  margin-left: -8%;
+  font-size: 22px;
+  border-radius: 20px;
+}
+.subdivv1 ul li {
+  list-style-type: none;
+  border-bottom: 2px white solid;
+}
+.subdivv1 ul li:hover {
+  display: block;
+  color: #b3b3b3;
+  border-color: #b3b3b3;
+}
+.subdivv1 {
+  display: none;
+}
+.printplaylists22 {
+  display: block;
+  background: unset;
+  border: none;
+  color: white;
+  font-family: inherit;
+  line-height: 32px;
+  border-color: white;
+  width: 100%;
+  word-break: break-word;
+  cursor: pointer;
+  text-align: left;
+}
+.printplaylists22:hover {
+  border-color: #393558;
+  color: #393558;
+}
+.innerdiv1 {
+  display: flex;
+}
+.innerdiv1 > * {
+  flex: auto;
+}
+.innersubdiv2 {
+  padding-inline: 2%;
+  margin-left: 17%;
+}
+.innersubdiv1 {
+  display: grid;
+  position: fixed;
+  padding: 2%;
+  margin-top: -6%;
+  /* position: sticky; */
+  height: 100vh;
+  align-content: space-evenly;
+  justify-content: center;
+  justify-items: center;
+  max-width: 200px;
+  background-image: linear-gradient(to right, rgb(40 35 35), #000000);
+  box-shadow: 5px 7px 5px black;
+}
+.options2 {
+  color: white;
+  margin-top: -46%;
+  /* margin-top: -35%; */
+}
+.yourplaylists,
+.likedplaylists {
+  background: unset;
+  font-family: inherit;
+  color: white;
+  border: ridge 6px white;
+  padding: 0.6%;
+  margin-top: -88%;
+  margin-bottom: 54%;
+  box-shadow: 7px 7px 6px black;
+}
+.yourplaylists:hover,
+.likedplaylists:hover {
+  margin-top: -90%;
+  margin-bottom: 50%;
+  cursor: pointer;
+  font-size: 20px;
+}
+.yoursearch22 {
+  text-align: center;
+  word-break: break-word;
+  color: white;
+  text-shadow: 6px 7px 6px black;
+}
+.playlistimage {
+  width: 250px;
+  border-radius: 0%;
+  box-shadow: 4px 5px 5px black;
+  margin-bottom: -2%;
+}
+.middlediv2 {
+  display: flex;
+  border: solid 4px black;
+  margin-bottom: 2%;
+  box-shadow: 3px 4px 5px black;
+  background: rgb(107, 104, 104);
+  background: linear-gradient(
+    209deg,
+    rgba(107, 104, 104, 1) 0%,
+    rgba(42, 40, 40, 1) 18%,
+    rgba(0, 0, 0, 1) 63%,
+    rgba(64, 62, 62, 1) 100%
+  );
+}
+.printplaylists22:hover {
+  font-size: 25px;
+  color: rgb(2, 49, 9);
+}
+.printplaylists22:hover > .middlediv2 {
+  margin-bottom: 1%;
+  margin-left: -1%;
+  margin-right: -1%;
+}
+.middlediv2:hover > .listname {
+  font-size: 25px;
+  color: rgb(2, 49, 9);
+}
+.listname {
+  font-size: 20px;
+  word-wrap: break-word;
+  word-break: break-all;
+  margin-left: 2%;
+  text-shadow: 3px 4px 2px black;
+}
+/* .playlists22 {
+  position: relative;
+  overflow-y: scroll;
+  max-height: 20vh;
+  max-width: 17.5rem;
+  border: ridge #f7f3f3 2.5px;
+  margin-block: 2%;
+  padding: 1% 0%;
+  border-radius: 3%;
+} */
+/* .addplaylist22 {
+  box-shadow: 5px 5px 6px black;
+  padding: 1% 5%;
+  border-radius: 20px;
+  font-family: inherit;
+  margin-left: 17%;
+  background-color: unset;
+  border: black;
+  color: #b3b3b3;
+  font-size: 25px;
+  margin-top: 2%;
+  text-shadow: 4px 4px 2px black;
+  border: solid white 3px;
+}
+.addplaylist22:hover {
+  border-color: white;
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+  margin-left: 15%;
+  margin-top: 1%;
+} */
+/* .subdiv22 {
+  /* position: absolute; */
+/* transform: translate(38vw, 73vh); */
+/* background-image: linear-gradient(#000000, rgb(40 35 35));
+  color: #b3b3b3;
+  font-family: "Anton", sans-serif;
+  font-family: "Zen Dots", cursive;
+  padding: 2% 2%;
+  box-shadow: 8px 9px 8px black;
+  border-radius: 5%;
+  max-width: 50%;
+} */
+/* @media (max-width: 1000px) {
+  .subdiv2,
+  .subdiv3 {
+    transform: translate(35vw, 73vh);
+    max-width: 60%;
+  }
+  .addplaylist {
+    max-width: 14.5rem;
+  }
+}
+@media (max-width: 800px) {
+  .buttonsimp {
+    padding-inline: 30%;
+  }
+  .mainnavbar {
+    display: grid;
+  }
+  .mainnavbar > * {
+    flex-basis: 0px;
+  }
+  .webtitle {
+    text-align: center;
+  }
+  .profilediv {
+    text-align: center;
+    padding: 0;
+  }
+  .subdiv2 {
+    transform: translate(18vw, 73vh);
+    font-size: smaller;
+    max-width: 70%;
+  }
+  .subdiv3 {
+    transform: translate(18vw, 73vh);
+    max-width: 70%;
+  }
+  .cancelbutt {
+    margin-left: 30%;
+  }
+  .subdiv3 .addplaylist {
+    margin-left: 28%;
+  }
+}
+@media (max-width: 500px) {
+  .subdiv2,
+  .subdiv3 {
+    transform: translate(18vw, 73vh);
+    font-size: xx-small;
+    max-width: 60%;
+  }
+  .subdiv3 {
+    height: 44%;
+  }
+  .addd {
+    text-align: center;
+  }
+  .addplaylist,
+  .cancelbutt {
+    font-size: 20px;
+    text-align: center;
+  }
+  .cancelbutt:hover {
+    font-size: 23px;
+  }
+  .addplaylist:hover {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 400px) {
+  .buttonsimp {
+    padding-inline: 10%;
+  }
+  .the,
+  .the1,
+  .title,
+  .watchmore {
+    font-size: small;
+  }
+  .webtitle {
+    font-size: large;
+  }
+  .backk,
+  .backk1 {
+    height: 50px;
+    width: 40px;
+  }
+  .backk:hover,
+  .backk1:hover {
+    height: 70px;
+    width: 60px;
+  }
+  .thumbnail {
+    height: 70px;
+  }
+  .subdiv2,
+  .subdiv3 {
+    transform: translate(20vw, 73vh);
+    font-size: 12px;
+    max-width: 60%;
+  }
+  .addd {
+    text-align: center;
+  }
+  .addplaylist,
+  .cancelbutt {
+    font-size: 16px;
+    text-align: center;
+  }
+  .cancelbutt {
+    margin-left: 30%;
+  }
+  .cancelbutt:hover {
+    font-size: 19px;
+    margin-left: 27%;
+  }
+  .addplaylist:hover {
+    font-size: 18px;
+    margin-left: 15%;
+  }
+  .addplaylist {
+    margin-left: 17%;
+  }
+  .subdiv3 .addplaylist {
+    margin-left: 27%;
+  }
+  .subdiv3 .addplaylist:hover {
+    margin-left: 25%;
+  }
+}
+@media (max-width: 210px) {
+  .buttonsimp {
+    padding-inline: 0%;
+  }
+  .the,
+  .the1,
+  .title,
+  .watchmore {
+    font-size: x-small;
+  }
+  .backk,
+  .backk1 {
+    height: 30px;
+    width: 20px;
+  }
+  .backk:hover,
+  .backk1:hover {
+    height: 50px;
+    width: 40px;
+  }
+  .thumbnail {
+    height: 50px;
+  }
+  iframe.mainvidd {
+    height: 310px;
+  }
+  .subdiv2,
+  .subdiv3 {
+    transform: translate(20vw, 43vh);
+    font-size: 6px;
+    height: 36%;
+  }
+  .playlistinput {
+    padding: 0% 0%;
+    font-size: 9px;
+  }
+  .cancelbutt {
+    margin-left: 15%;
+  }
+  .cancelbutt:hover {
+    font-size: 18px;
+    margin-left: 12%;
+  }
+  .addplaylist:hover {
+    font-size: 14px;
+    margin-left: 3%;
+  }
+  .addplaylist {
+    margin-left: 4%;
+    font-size: 12px;
+  }
+  .subdiv3 .addplaylist {
+    margin-left: 18%;
+  }
+  .subdiv3 .addplaylist:hover {
+    margin-left: 3%;
+    font-size: 18px;
+  }
+} */
+@media (max-width: 1480px) {
+  .innersubdiv2 {
+    margin-left: 22%;
+  }
+}
+@media (max-width: 1180px) {
+  .mainnavbarr1 {
+    display: grid;
+  }
+  .webtitlee1 {
+    text-align: center;
+  }
+  .searchbardiv1 {
+    text-align: center;
+  }
+  .innersubdiv1 {
+    padding: 4.5% 2.5%;
+    max-width: 220px;
+  }
+  .playlistimage {
+    width: 200px;
+  }
+  .likedplaylists,
+  .yourplaylists {
+    font-size: 15px;
+  }
+  .printplaylists22 {
+    font-size: 24px;
+  }
+  .likedplaylists:hover,
+  .yourplaylists:hover {
+    font-size: 17px;
+  }
+  .options2 {
+    font-size: 20px;
+  }
+  .innersubdiv1 {
+    max-width: 180px;
+  }
+  .innersubdiv2 {
+    margin-left: 26%;
+  }
+}
+@media (max-width: 680px) {
+  .webtitlee1,
+  .searchinput,
+  .searchbutt {
+    font-size: 24px;
+  }
+  .profiledivv1 {
+    text-align: center;
+    padding: 0;
+  }
+  .innersubdiv1 {
+    padding: 2.5% 1%;
+    max-width: 220px;
+  }
+  .playlistimage {
+    width: 150px;
+  }
+  .listname {
+    font-size: 14px;
+  }
+  .likedplaylists,
+  .yourplaylists {
+    font-size: 12px;
+  }
+  .printplaylists22:hover > .middlediv2 {
+    font-size: 18px;
+  }
+  .middlediv2:hover > .listname {
+    font-size: 18px;
+  }
+  .likedplaylists:hover,
+  .yourplaylists:hover {
+    font-size: 14px;
+  }
+  .options2 {
+    font-size: 18px;
+  }
+  .innersubdiv1 {
+    max-width: 160px;
+  }
+  .innersubdiv2 {
+    margin-left: 34%;
+  }
+}
+@media (max-width: 570px) {
+  .webtitlee1,
+  .searchinput,
+  .searchbutt {
+    font-size: 18px;
+  }
+}
+@media (max-width: 520px) {
+  .innersubdiv1 {
+    max-width: 120px;
+  }
+  .playlistimage {
+    width: 80px;
+    height: 60px;
+  }
+  .likedplaylists,
+  .yourplaylists {
+    font-size: 10px;
+  }
+  .likedplaylists:hover,
+  .yourplaylists:hover {
+    font-size: 12px;
+  }
+  .options2 {
+    font-size: 15px;
+  }
+  .listname {
+    font-size: 8px;
+  }
+  .printplaylists22:hover > .middlediv2 {
+    font-size: 10px;
+  }
+  .middlediv2:hover > .listname {
+    font-size: 10px;
+  }
+  .yoursearch22 {
+    font-size: 14px;
+  }
+  .innersubdiv2 {
+    margin-left: 36%;
+  }
+}
+@media (max-width: 420px) {
+  .searchinput,
+  .searchbutt {
+    font-size: 12px;
+  }
+}
+@media (max-width: 310px) {
+  .searchinput,
+  .searchbutt {
+    font-size: 8px;
+  }
+  .innersubdiv1 {
+    max-width: 80px;
+  }
+  .playlistimage {
+    width: 40px;
+    height: 30px;
+  }
+  .likedplaylists:hover,
+  .yourplaylists:hover {
+    font-size: 8px;
+  }
+  .likedplaylists,
+  .yourplaylists {
+    font-size: 7px;
+    border: 1px solid;
+  }
+  .options2 {
+    font-size: 10px;
+  }
+  .listname {
+    font-size: 4px;
+  }
+  .printplaylists22:hover > .middlediv2 {
+    font-size: 6px;
+  }
+  .middlediv2:hover > .listname {
+    font-size: 6px;
+  }
+  .yoursearch22 {
+    font-size: 14px;
+  }
+  .innersubdiv2 {
+    margin-left: 36%;
+  }
+}

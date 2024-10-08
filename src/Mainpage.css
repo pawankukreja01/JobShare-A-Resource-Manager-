@@ -1,0 +1,87 @@
+.logg {
+  opacity: 1;
+  padding: 20px 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  line-height: 70px;
+  text-align: center;
+  margin-inline: auto;
+  width: min(90%, 70.7rem);
+}
+.welcomeheading {
+  font-size: 30px;
+  font-style: oblique;
+  text-shadow: 9px 4px 8px rgb(19 16 16 / 88%);
+  color: rgba(88, 88, 104, 0.938);
+  padding-bottom: 50px;
+  padding-top: 100px;
+  animation-name: example1;
+  text-align: center;
+  animation-duration: 4s;
+}
+
+.logg {
+  font-size: 20px;
+  line-height: 60px;
+}
+
+.button {
+  margin-top: 100px;
+}
+
+.logg {
+  width: 40%;
+  margin-left: 30%;
+  padding: 5px 5px;
+  animation-name: example1;
+  animation-duration: 2s;
+  transition: 0.5s;
+  background-color: black;
+  border: 4px groove white;
+  border-radius: 800px;
+  box-shadow: 12px 9px 18px #223a09;
+}
+.logg:hover {
+  font-size: 30px;
+  color: aqua;
+}
+.button {
+  font-size: 60px;
+}
+.middlestuff > * {
+  flex-basis: 100%;
+}
+
+@media (max-width: 720px) {
+  .welcomeheading {
+    font-size: 34px;
+  }
+  .middlestuff {
+    font-size: 40px;
+  }
+}
+@media (max-width: 440px) {
+  .welcomeheading {
+    font-size: medium;
+  }
+  .middlestuff {
+    font-size: 20px;
+  }
+  .loginbutton:hover,
+  .signupbutton:hover {
+    font-size: 30px;
+  }
+}
+@media (max-width: 240px) {
+  .welcomeheading {
+    font-size: smaller;
+  }
+  .logg {
+    font-size: 10px;
+  }
+  .loginbutton:hover,
+  .signupbutton:hover {
+    font-size: 30px;
+  }
+}

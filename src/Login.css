@@ -1,0 +1,183 @@
+.description_of_login {
+  opacity: 1;
+  padding: 20px 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  line-height: 70px;
+  text-align: center;
+  font-size: 38px;
+  margin-inline: auto;
+  width: min(90%, 70.7rem);
+}
+
+.loginheading {
+  font-size: 30px;
+  font-style: oblique;
+
+  text-shadow: 9px 4px 8px rgb(19 16 16 / 88%);
+  color: rgba(88, 88, 104, 0.938);
+  text-overflow: ellipsis;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  animation-name: example1;
+  animation-duration: 4s;
+}
+
+.middlestuff_of_login {
+  font-size: 40px;
+
+  width: 100%;
+  height: 100%;
+  line-height: 100px;
+  background-color: white;
+  border-radius: 50px;
+  border: 20px solid #140f0f;
+  box-shadow: 8px 16px 3px #121111;
+  text-shadow: 8px 7px 7px black;
+  background-image: url("./images/background_login.jpg");
+  object-fit: fill;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  padding-bottom: 80px;
+  margin-right: -1px;
+}
+
+.loginbutton_of_login {
+  background-color: black;
+  border: 4px groove white;
+  border-radius: 80px;
+  box-shadow: 12px 9px 18px #223a09;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 40px;
+  padding: 20px 86px;
+  animation-name: example1;
+  animation-duration: 2s;
+  transition: 0.5s;
+  color: white;
+}
+.loginbutton_of_login:hover {
+  font-size: 60px;
+}
+.middlestuff_of_login > * {
+  flex-basis: 100%;
+}
+.username_of_login {
+  font-size: 30px;
+}
+.searchbar1_of_login,
+.searchbar2_of_login {
+  width: 552px;
+  height: 75px;
+  margin-left: 5px;
+  /* margin-bottom: 26px; */
+  border-radius: 40px;
+  text-align: center;
+  border: 10px solid #09090e;
+  box-shadow: 10px 4px 6px #1a1818;
+}
+.searchbar2_of_login {
+  margin-bottom: 50px;
+}
+.searchbar1_of_login {
+  margin-bottom: 10px;
+}
+.log {
+  text-align: center;
+  animation-name: example1;
+  animation-duration: 0.5s;
+}
+@media (max-width: 1400px) {
+  .description_of_login {
+    font-size: 60%;
+  }
+  .loginbutton_of_login {
+    font-size: 40px;
+    animation-name: example1;
+    animation-duration: 0.5s;
+  }
+  .middlestuff_of_login {
+    line-height: 80px;
+  }
+  .username_of_login,
+  .password {
+    font-size: 40px;
+    margin-bottom: 2px;
+  }
+  .searchbar1_of_login,
+  .searchbar2_of_login {
+    width: 400px;
+  }
+  .searchbar2_of_login {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 870px) {
+  .middlestuff_of_login {
+    line-height: 90px;
+    padding-bottom: 6px;
+  }
+  .username_of_login,
+  .password {
+    font-size: 20px;
+    margin-bottom: 2px;
+  }
+
+  .searchbar1_of_login,
+  .searchbar2_of_login {
+    width: 300px;
+  }
+  .searchbar2_of_login {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 690px) {
+  .description_of_login {
+    font-size: 7px;
+  }
+  .loginheading {
+    font-size: medium;
+  }
+
+  .loginbutton_of_login:hover {
+    font-size: 25px;
+  }
+  .username_of_login,
+  .password {
+    font-size: 12px;
+    margin-bottom: -10px;
+  }
+  .searchbar1_of_login,
+  .searchbar2_of_login {
+    width: 150px;
+    height: 20px;
+    border: 3px solid black;
+  }
+  .middlestuff_of_login {
+    line-height: 80px;
+    background-position: center;
+    background-size: cover;
+  }
+  .searchbar2_of_login {
+    margin-bottom: 20px;
+  }
+  /* .log {
+    font-size: 10px;
+    padding: 0px 0px;
+  } */
+  .loginbutton_of_login {
+    height: 5px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 690px) {
+  .loginbutton_of_login {
+    font-size: 10px;
+    padding: 20px 40px;
+  }
+}

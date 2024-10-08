@@ -1,0 +1,291 @@
+.innerdiv11
+{
+    margin-inline: 5%;
+    color: white;
+    text-shadow: 4px 5px 6px black;
+    text-align: center;
+    font-size: 20px;
+}
+.innerdiv10
+{
+    background: linear-gradient( 
+        217deg, rgb(12 12 12) 0%, rgb(10 10 10) 69%);
+    margin-inline: 1.5%;
+    text-align: center;
+    box-shadow: 8px 10px 10px black;
+    margin-bottom: 3%;
+    color: rgb(252, 252, 252);
+    text-shadow: 4px 5px 6px black;
+    font-size: 25px;
+    display: flex;
+}
+.innerdiv10 > *{
+    flex-basis: 100%;
+}
+.yayaimg
+{
+    border-radius: 0px;
+}
+.yaya1
+{
+    margin-left: -25%;
+}
+.yaya
+{
+    
+    margin-left: -25%;
+    /* margin-right: -15%; */
+}
+.yo_usama
+{
+    /* text-align: center; */
+    margin-left: 50%;
+    padding-block :6.5%;
+    word-break: break-word;
+    text-align: center ;
+}
+.yo1_usama
+{
+    text-align: left;
+    margin-left: 1%;
+    font-size: 25px;
+}
+.yayaimg{
+    box-shadow: 4px 5px 7px black;
+}
+.ha1
+{
+    justify-content: right;
+    margin-left: 40%;
+    margin-right: 1%;
+    text-shadow: 6px 7px 3px black;
+  padding: 1%;
+  font-family: "Zen Dots", cursive;
+  color: #f7f3f3;
+  box-shadow: 5px 3px 5px black;
+  border-radius: 15px;
+  font-size: 28px;
+  margin-left: 32%;
+  background: black;
+  border: 2px solid #858484;
+  margin-bottom: 1%;
+
+}
+
+.ha1:hover{
+  font-size: 31px;
+  cursor: pointer;
+  /* padding-block: 0.5%; */
+  border-color: rgb(240, 245, 243);
+  margin-bottom: 0.7%;
+}
+.indiv_usama{
+    display: flex;
+    font-size: 15px;
+    padding-bottom: 1%;
+    margin-left:25%;
+
+}
+.indiv_usama > *{
+    flex-basis: 50%;
+}
+
+.flexing
+{
+    width: 100%;
+    color: white;
+    display: flex;
+}
+
+.listnaming
+{
+    width: 100%;
+    /* background-color: #fff; */
+    /* height: 100%; */
+  margin: 0%;
+  padding: 0%;
+  font-size: 20px;
+  /* word-wrap: break-word;
+  word-break: break-all; */
+  margin-left: 2%;
+  text-shadow: 3px 4px 2px black;
+
+}
+
+.com1_usama
+{
+    text-decoration: none;
+    width: 100%;
+}
+
+.middlediv2:hover > .listnaming {
+    font-size: 25px;
+    color: rgb(2, 49, 9);
+  }
+
+@media (max-width: 1200px) {
+    .yayaimg{
+        width: 250px;
+    }
+    .yaya{
+        margin-left: -20%;
+    }
+    .yaya1{
+        margin-left: -20%;
+    }
+}
+@media (max-width: 1000px) {
+    .yayaimg{
+        width: 200px;
+        height: 200px;
+    }
+    /* .yaya{
+        margin-left: -20%;
+    }
+    .yaya1{
+        margin-left: -20%;
+    } */
+    .yo_usama{
+        font-size: 28px;
+    }
+    .yo1_usama{
+        font-size: 22px;
+    }
+    .ha1{
+        font-size: 18px;
+    }
+    .ha1:hover{
+        font-size: 20px;
+    }
+}
+@media (max-width: 700px) {
+    .yayaimg{
+        width: 160px;
+        height: 200px;
+    }
+    .yaya{
+        margin-left: -15%;
+    }
+    .yaya1{
+        margin-left: -15%;
+    }
+    .yo_usama{
+        font-size: 18px;
+    }
+    .yo1_usama{
+        font-size: 13px;
+    }
+    .ha1{
+        font-size: 12px;
+    }
+    .ha1:hover{
+        font-size: 14px;
+    }
+}
+@media (max-width: 800px) {
+    .yo_usama{
+        font-size: 25px;
+    }
+    .yo1_usama{
+        font-size: 18px;
+    }
+    .ha1{
+        font-size: 15px;
+    }
+    .ha1:hover{
+        font-size: 18px;
+    }
+}
+@media (max-width: 520px) {
+    .yayaimg{
+        width: 120px;
+        height: 160px;
+    }
+    .yo_usama{
+        font-size: 15px;
+    }
+    .yo1_usama{
+        font-size: 10px;
+    }
+    .ha1{
+        font-size: 9px;
+    }
+    .ha1:hover{
+        font-size: 11px;
+    }
+}
+@media (max-width: 380px)
+{
+    .yayaimg{
+        width: 100px;
+        height: 120px;
+    }
+}
+@media (max-width: 310px) {
+    .yayaimg{
+        width: 80px;
+        height: 80px;
+    }
+    .yaya{
+        margin-left: -8%;
+    }
+    .yaya1{
+        margin-left: -8%;
+    }
+    .yo_usama{
+        font-size: 12px;
+    }
+    .yo1_usama{
+        font-size: 8px;
+    }
+    .ha1{
+        font-size: 7px;
+    }
+    .yo3{
+        font-size: 12px;
+    }
+    .ha1:hover{
+        font-size: 9px;
+    }
+}
+
+.removing_playlist_option
+{
+    color: #fff;
+}
+
+.removing_playlist_option:hover
+{
+    color: rgb(212, 65, 65);
+}
+
+/* .right
+{
+    justify-content: right;
+}
+
+.middlediv2 .removing_playlist_option
+{
+    justify-content: right;
+}
+
+.middlediv2 > img
+{
+    justify-content: right;
+} */
+
+/* .removing_playlist_option
+{
+    justify-content: right;
+} */
+
+
+
+.top_right
+{
+    display: inline-block;
+    width: 180px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}

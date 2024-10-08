@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Orbitron&family=Permanent+Marker&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.com
+{
+  color: white;
+  text-decoration: none;
+}
+/* .com:hover{
+  color: green;
+} */
+.out {
+  font-family: "Orbitron";
+  position: absolute;
+  height: 100vh;
+}
+.outt {
+  font-family: "Orbitron";
+  position: relative;
+  height: 100vh;
+}
+.video_container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: -5;
+  background-size: 100% 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(rgba(124, 121, 121, 0.398), green, blue);
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+}
+
+video.backgroundvid {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  z-index: -4;
+  opacity: 1;
+  filter: blur(6px);
+}
+
+.bar {
+  width: 100%;
+  display: flex;
+  height: 80px;
+  font-size: 30px;
+  padding: 1px 10px;
+  color: aliceblue;
+  background-color: rgba(41, 40, 40, 0.842);
+  opacity: 0.8;
+  border-bottom: 3px ridge white;
+  box-shadow: 20px 2px 3px grey;
+}
+.com1
+{
+  text-decoration: none;
+}
+.bar > * {
+  flex-basis: 100%;
+  font-family: "Orbitron";
+}
+.options {
+  z-index: 5;
+  font-size: 30px;
+  padding: 25px 20px;
+  display: flex;
+  text-align: right;
+}
+.about,
+.contact {
+  transition: 0.3s;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  padding: 0px 30px;
+  text-shadow: 7px 2px 2px #000000;
+}
+.about,
+.contact,
+.logg,
+.log {
+  color: white;
+  text-decoration: none;
+  animation-name: example1;
+  animation-duration: 2s;
+}
+
+.options > * {
+  flex-basis: 100%;
+}
+
+a.about:hover,
+a.contact:hover {
+  color: rgba(108, 108, 109, 0.938);
+  border-color: white;
+  padding: 0px 10px;
+  /* font-size: larger; */
+}
+.head {
+  text-decoration: none;
+  text-shadow: 5px 11px 3px #000000;
+  color: aliceblue;
+  font-family: "Raleway", sans-serif;
+}
+.guruu {
+  animation-name: example1;
+  animation-duration: 2s;
+}
+
+
+@keyframes example1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media (max-width: 1000px) {
+  .bar {
+    height: 200px;
+    padding: 20px 10px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .options {
+    text-align: center;
+    flex-direction: row;
+  }
+}
+@media (max-width: 720px) {
+  .bar {
+    height: 250px;
+  }
+  .options {
+    flex-direction: row;
+  }
+}
+@media (max-width: 440px) {
+  .bar,
+  .options {
+    height: 230px;
+    font-size: large;
+    flex-direction: column;
+  }
+}

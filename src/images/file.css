@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.guru_logo {
+  width: 165px;
+  height: 93px;
+  position: relative;
+  left: 700px;
+  top: 20px;
+
+  /*float: inline-end;
+          object-fit: cover;*/
+  /*  box-shadow: 1px 1px 9px rgba(204, 204, 204, 0.651);*/
+}
+img.profile {
+  width: 235px;
+  border-radius: 150px;
+  float: left;
+  margin-right: 20px;
+  animation: backwards;
+  border: 8px ridge black;
+  /* box-shadow: 1px 1px 9px rgba(204, 204, 204, 0.651); */
+  box-shadow: 2px 2px 4px rgb(0 0 0 / 600%);
+  /*margin-top: 200px;*/
+}
+/*   a {
+        font-size: 47px;
+        font-style: italic;
+        font-weight: bold;
+        margin-top: 102px;
+      }*/
+em {
+  color: blue;
+  font-style: normal;
+}
+
+h1 {
+  margin-left: 1000px;
+  margin-top: -113px;
+  font-size: 100px;
+  text-shadow: 2px 2px 4px #000000;
+  color: azure;
+}
+
+img.img_from_google {
+  /*float: right;*/
+  width: 500px;
+  border-radius: 0px;
+  /*  margin-left: 800px;*/
+
+  height: 700px;
+  border: 10px groove silver;
+  position: relative;
+  left: 500px;
+  border-collapse: collapse;
+  border-image: stretch;
+}
+p {
+  font-size: 30px;
+  /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
+}
+ul {
+  float: right;
+  position: relative;
+  left: -540px;
+}
+body {
+  font-family: "Brandon Grotesque";
+  line-height: 3;
+  position: relative;
+  /* background-color: teal;
+        /*   background-image: url(https://www.ucg.org/files/styles/full_grid9_breakpoints_theme_top_hat_mobile_1x/public/image/article/2018/10/11/bible-faq-what-does-it-mean-that-jesus-is-our-elder-brother.jpg?timestamp=1539273335);*/
+  /* background-size: cover; */
+  /* background-position-x: center; */
+  /* background-position-y: center; */
+}
+input.search_button {
+  width: 200px;
+  height: 52px;
+  border: 6px ridge black;
+  position: relative;
+  top: -1462px;
+  left: 607px;
+  border-radius: 68px;
+  /* box-shadow: 5px 4px 8px rgb(136 135 135 / 65%); */
+  box-shadow: 2px 2px 4px rgb(0 0 0 / 600%);
+  opacity: 1;
+  cursor: pointer;
+}
+
+input.search_bar {
+  width: 800px;
+  height: 50px;
+  position: relative;
+  border-radius: 52px;
+  top: -1462px;
+  left: 611px;
+  box-shadow: 2px 2px 4px rgb(0 0 0 / 600%);
+}
+a.username {
+  margin-top: 100px;
+  font-size: 50px;
+  margin-right: 100px;
+  position: relative;
+  top: -669px;
+  box-shadow: 2px 2px 4px rgb(0 0 0 / 600%);
+}
+video {
+  width: 400px;
+  height: 200px;
+  border: 2px solid #fff;
+
+  -moz-box-shadow: inset 10px 10px 50px #fff;
+  -webkit-box-shadow: inset 10px 10px 50px #fff;
+  box-shadow: inset 10px 10px 50px #fff;
+}
+div.div1 {
+  /*  margin-left: -1%;
+  margin-top: -1%;
+  margin-bottom: -1%;
+  margin-right: -2%;
+  position: relative;
+  /* top: -10px; 
+  bottom: 100%;
+  /* left: -9px; 
+  font-family: serif;
+  background-image: url(https://images.pexels.com/photos/1112048/pexels-photo-1112048.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=450&w=1260);
+  background-size: 100%;*/
+  background-image: url(https://images.pexels.com/photos/1112048/pexels-photo-1112048.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=450&w=1260);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+.late {
+  font-size: 1000px;
+}
+h1.guru {
+  position: relative;
+  left: -135px;
+  top: 20px;
+}
